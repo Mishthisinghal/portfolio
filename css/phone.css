@@ -1,0 +1,51 @@
+#navbar{
+    width:1000px;
+    align-content: center;
+    margin:auto;  
+}
+#intro{
+    width:1000px;
+    align-content: center;
+    margin:auto;
+}
+
+#mainintro{
+
+    flex-direction: column;
+    height: 500px;
+    width: 1000px;
+    margin:auto;
+
+}
+#aboutme{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+}
+#tech{
+    flex-direction: column;
+    height: 800px;
+    width:1000px;
+    align-content: center;
+    margin: 50px auto;
+
+}
+#head{
+    height: 600px;
+    width:1000px;
+    align-content: center;
+    margin: 230px auto;
+}
+#hobhead{
+    width:1000px;
+    align-content: center;
+    margin:auto;
+    
+}
+#contact{
+    width:1000px;
+    align-content: center;
+    margin:80px auto;
+}

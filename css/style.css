@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    
+}
+body{
+    background-image: url(../images/body.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+}
+#navbar ul{
+    display:flex;
+    margin: 0px 0px;
+    padding:16px 16px;
+    background-color: rgb(0, 0, 0);
+}
+.item{
+    
+    margin: 0px 20px;
+    list-style:none;
+}
+.item a{
+    padding:8px 8px;
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover{
+    background-color: rgb(241, 241, 238);
+    color: black;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height: 150px;
+    width: 100%; 
+}
+#mainintro{
+    display: block;
+    display:flex;
+    height: 300px;
+    width: 100%;
+    justify-content:space-evenly;
+    align-items: center;
+    background-image: url(../images/blackbg.jpg);
+    color: white;
+    border-radius: 10px;;
+}
+
+#mainintro img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+#aboutme{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    font-size:larger;
+}
+#tech{
+    display: flex;
+    height: 350px;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.itemtech{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 40px;
+    padding: 20px 20px;
+    color: white;
+    background-image: url(../images/tech.jpg);
+    border-radius: 20px;
+    width: 200px;
+    height: 250px;
+    transition: height 0.2s,width 0.2s;
+}
+.itemtech:hover{
+    height: 270px;
+    width: 220px;
+}
+.itemtech img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+#head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+#hobhead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    
+}
+#hobhead p{
+    font-size:larger;
+}
+#hobbies{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-gap: 2rem;
+    border-color: black;
+    margin-top: 30px;
+    text-align: center;
+
+}
+.hobitem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 80px;
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 20px;
+    transition: height 0.2s,width 0.2s;
+}
+.hobitem:hover{
+    height: 90px;
+    width: 360px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+#mailadd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+#mailadd img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.extra{
+    margin: 10px;
+}
+#connect{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.conitem img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin: 20px;
+    transition: height 0.5s,width 0.5s;
+}
+.conitem img:hover{
+    height: 60px;
+    width: 60px;
+}
