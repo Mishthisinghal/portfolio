@@ -1,19 +1,24 @@
+body{
+    width: fit-content;
+}
 #navbar{
-    width:1000px;
+    background-size: 100% 100%;
+    width:100%;
     align-content: center;
     margin:auto;  
 }
 #intro{
-    width:1000px;
+    width:100%;
     align-content: center;
     margin:auto;
 }
+
 
 #mainintro{
 
     flex-direction: column;
     height: 500px;
-    width: 1000px;
+    width: 100%;
     margin:auto;
 
 }
