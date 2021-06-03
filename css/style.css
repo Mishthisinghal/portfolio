@@ -114,6 +114,9 @@ a:hover{
 }
 #hobhead p{
     font-size:larger;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
 }
 #hobbies{
     display: grid;
