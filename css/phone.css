@@ -15,7 +15,7 @@
 #mainintro{
 
     flex-direction: column;
-    height: 500px;
+    /* height: 500px; */
     width: 100%;
     margin:auto;
 
@@ -71,15 +71,12 @@
     .item{
         margin: 0px 5px;
     }
-    #mainintro{
-        height: 600px;
-    }
+    
 }
 @media only screen and (max-width:400px){
-    #mainintro{
-        height: 700px;
-    }
+    
     .hobitem{
         width: 280px;
     }
 }
+
